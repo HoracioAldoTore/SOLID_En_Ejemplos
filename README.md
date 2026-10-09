@@ -1,9 +1,8 @@
-# SOLID_En_Ejemplos
-Principios SOLID en ejemplos y sin teorías abstractas. Que impresionan pero no dan síntomas ni soluciones al incumplimiento de los principios.
 
 # Principios SOLID en C# - Ejemplos Prácticos
 
 Este repositorio contiene una solución en C# (`SOLID_En_Ejemplos`) orientada a explicar de forma práctica e intuitiva los **5 Principios SOLID** de diseño de software orientados a objetos.
+Principios SOLID en ejemplos y sin teorías abstractas que solo impresionan pero no dan síntomas ni soluciones al incumplimiento de los principios.
 
 Cada principio cuenta con una estructura dividida en dos partes:
 
