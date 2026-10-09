@@ -64,7 +64,7 @@ Se separan las responsabilidades en distintas clases orientadas a un único prop
 > *"Las entidades de software deben estar abiertas para la extensión, pero cerradas para la modificación."*
 
 #### ❌ Antes (Incumplimiento)
-Para agregar nuevos comportamientos o tipos es necesario modificar el código existente.
+Para agregar nuevos comportamientos o tipos es necesario modificar el código existente. Por ejemplo, si incorporáramos el juego Galaga, tendríamos que modificar la clase Hardware, lo cual viola la abstracción del dominio: en el mundo real, cambiar de juego no implica modificar la consola.
 
 ![Diagrama OCP - Antes](SOLID_En_Ejemplos/Open-Closed%20Principle/Antes/DiagramaClases.jpg)
 
