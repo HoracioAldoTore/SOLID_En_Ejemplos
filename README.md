@@ -56,7 +56,7 @@ Una clase asume múltiples responsabilidades a la vez.
 #### ✅ Después (Cumplimiento)
 Se separan las responsabilidades en distintas clases orientadas a un único propósito.
 
-![Diagrama SRP - Después](Single%20Responsibility%20Principle/Despues/DiagramaClases.jpg)
+![Diagrama SRP - Después](SOLID_En_Ejemplos/Single%20Responsibility%20Principle/Despues/DiagramaClases.jpg)
 
 ---
 
@@ -67,12 +67,12 @@ Se separan las responsabilidades en distintas clases orientadas a un único prop
 #### ❌ Antes (Incumplimiento)
 Para agregar nuevos comportamientos o tipos es necesario modificar el código existente.
 
-![Diagrama OCP - Antes](Open-Closed%20Principle/Antes/DiagramaClases.jpg)
+![Diagrama OCP - Antes](SOLID_En_Ejemplos/Open-Closed%20Principle/Antes/DiagramaClases.jpg)
 
 #### ✅ Después (Cumplimiento)
 Se utilizan abstracciones que permiten extender la funcionalidad añadiendo nuevas clases sin modificar las existentes.
 
-![Diagrama OCP - Después](Open-Closed%20Principle/Despues/DiagramaClases.jpg)
+![Diagrama OCP - Después](SOLID_En_Ejemplos/Open-Closed%20Principle/Despues/DiagramaClases.jpg)
 
 ---
 
@@ -83,12 +83,12 @@ Se utilizan abstracciones que permiten extender la funcionalidad añadiendo nuev
 #### ❌ Antes (Incumplimiento)
 Una clase derivada no cumple con el contrato de la clase base o interfaz (p. ej., lanzando excepciones no esperadas).
 
-![Diagrama LSP - Antes](Liskov%20Substitution%20Principle/Antes/DiagramaClases.jpg)
+![Diagrama LSP - Antes](SOLID_En_Ejemplos/Liskov%20Substitution%20Principle/Antes/DiagramaClases.jpg)
 
 #### ✅ Después (Cumplimiento)
 Se ajusta la jerarquía de herencia o composición para asegurar que cada subtipo respete plenamente el comportamiento esperado.
 
-![Diagrama LSP - Después](Liskov%20Substitution%20Principle/Despues/DiagramaClases.jpg)
+![Diagrama LSP - Después](SOLID_En_Ejemplos/Liskov%20Substitution%20Principle/Despues/DiagramaClases.jpg)
 
 ---
 
@@ -99,12 +99,12 @@ Se ajusta la jerarquía de herencia o composición para asegurar que cada subtip
 #### ❌ Antes (Incumplimiento)
 La interfaz `ITrabajador` contiene métodos que no aplican para todos los tipos que la implementan (por ejemplo, obligar a `Robot` a implementar métodos de comer o descansar).
 
-![Diagrama ISP - Antes](Interface%20Segregation%20Principle/Antes/DiagramaClases.jpg)
+![Diagrama ISP - Antes](SOLID_En_Ejemplos/Interface%20Segregation%20Principle/Antes/DiagramaClases.jpg)
 
 #### ✅ Después (Cumplimiento)
 Se segrega la interfaz en contratos más específicos (`ITrabajador`, `INecesidades`), permitiendo que `Humano` implemente ambas y `Robot` solo implemente la que necesita.
 
-![Diagrama ISP - Después](Interface%20Segregation%20Principle/Despues/DiagramaClases.jpg)
+![Diagrama ISP - Después](SOLID_En_Ejemplos/Interface%20Segregation%20Principle/Despues/DiagramaClases.jpg)
 
 ---
 
@@ -115,11 +115,11 @@ Se segrega la interfaz en contratos más específicos (`ITrabajador`, `INecesida
 #### ❌ Antes (Incumplimiento)
 La clase de alto nivel `Velador` depende directamente de la clase concreta de bajo nivel `LamparaIncandescente`.
 
-![Diagrama DIP - Antes](Dependency%20Inversion%20Principle/Antes/DiagramaClases.jpg)
+![Diagrama DIP - Antes](SOLID_En_Ejemplos/Dependency%20Inversion%20Principle/Antes/DiagramaClases.jpg)
 
 #### ✅ Después (Cumplimiento)
 `Velador` depende de la interfaz `ILampara`, lo que permite usar e intercambiar fácilmente distintas implementaciones como `LamparaIncandescente` o `LamparaLed`.
 
-![Diagrama DIP - Después](Dependency%20Inversion%20Principle/Despues/DiagramaClases.jpg)
+![Diagrama DIP - Después](SOLID_En_Ejemplos/Dependency%20Inversion%20Principle/Despues/DiagramaClases.jpg)
 
 ---
