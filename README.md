@@ -51,7 +51,7 @@ SOLID_En_Ejemplos/
 #### ❌ Antes (Incumplimiento)
 Una clase asume múltiples responsabilidades a la vez.
 
-![Diagrama SRP - Antes](Single%20Responsibility%20Principle/Antes/DiagramaClases.jpg)
+![Alt](Single%20Responsibility%20Principle/Antes/DiagramaClases.jpg)
 
 #### ✅ Después (Cumplimiento)
 Se separan las responsabilidades en distintas clases orientadas a un único propósito.
